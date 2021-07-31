@@ -38,6 +38,13 @@ input {
   transition: all 200ms ease-in-out;
 }
 
+.search-button:hover, .current-button:hover {
+  background: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+  color: white;
+  cursor: pointer;
+}
+
+
 .info {
   padding: 26px 0 26px;
 }
